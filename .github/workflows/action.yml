@@ -1,11 +1,9 @@
 name: 'github actions getjson'
 
 on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 1,10 * * *'
+  push
+  #schedule:
+  #  - cron: '0 1,10 * * *'
 
 jobs:
   bots:
