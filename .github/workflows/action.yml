@@ -7,7 +7,7 @@ on:
 
 jobs:
   bots:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: 'run_sh'
         run: bash ./ajax.sh
