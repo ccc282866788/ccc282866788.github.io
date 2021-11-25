@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'run_sh'
-        run: bash ajax.sh
+        run: bash ./req.sh
       
       
