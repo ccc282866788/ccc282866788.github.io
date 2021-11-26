@@ -10,9 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'checkout codes'
-        uses: actions/checkout@v1
-        
+        uses: actions/checkout@main
+
       - name: 'run_sh'
-        run: bash ./req.sh
+        run: ./req.sh
+        shell: bash
       
       
